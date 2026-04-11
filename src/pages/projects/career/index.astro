@@ -1,1 +1,25 @@
+---
+import BaseHead from '../../../components/BaseHead.astro';
+import Header from '../../../components/Header.astro';
+import Footer from '../../../components/Footer.astro';
+import ProjectList from '../../../components/ProjectList.astro';
+import { getCollection } from 'astro:content';
 
+const posts = (await getCollection('projects'))
+  .filter(p => p.data.category === 'career')
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<html lang="en">
+  <head>
+    <BaseHead title="Career" description="Career" />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <h1>Career</h1>
+      <ProjectList posts={posts} />
+    </main>
+    <Footer />
+  </body>
+</html>
