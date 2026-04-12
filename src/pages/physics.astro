@@ -1,1 +1,21 @@
+---
+import { getCollection } from "astro:content";
 
+const projects = await getCollection("projects");
+
+// Filter only Physics posts
+const physicsPosts = projects.filter(
+  (p) => p.data.category === "Physics"
+);
+---
+
+<h1>Physics</h1>
+
+<ul>
+  {physicsPosts.map((post) => (
+    <li>
+      <a href={`/projects/${post.slug}`}>{post.data.title}</a>
+      <p>{post.data.description}</p>
+    </li>
+  ))}
+</ul>
