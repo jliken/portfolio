@@ -1,0 +1,17 @@
+---
+const { posts } = Astro.props;
+---
+
+<ul>
+  {posts
+    .sort((a, b) => new Date(b.data.date) - new Date(a.data.date))
+    .map(post => (
+      <li>
+        <a href={post.slug}>
+          <h3>{post.data.title}</h3>
+          <p>{post.data.description}</p>
+          <small>{post.data.date}</small>
+        </a>
+      </li>
+    ))}
+</ul>
