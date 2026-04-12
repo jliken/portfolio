@@ -12,7 +12,6 @@ const projects = defineCollection({
 		// Transform string to Date object
 		pubDate: z.coerce.date(),
 		updatedDate: z.coerce.date().optional(),
-		category: z.enum(['physics', 'programming', 'engineering', 'career']),
 		heroImage: z.string().optional(),
 	}),
 });
