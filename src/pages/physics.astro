@@ -7,7 +7,7 @@ import { getCollection } from 'astro:content';
 import FormattedDate from '../components/FormattedDate.astro';
 
 const posts = (await getCollection('projects'))
-  .filter((post) => post.data.category === "Physics")
+  .filter((post) => post.data.category === "physics")
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 
