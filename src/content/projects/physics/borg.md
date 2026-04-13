@@ -21,7 +21,7 @@ Three examples of high-redshift galaxy candidates are shown in the below image, 
 
 ![Source Comparison](/projects/physics/borg-candidates.png)
 
-The left cabdidate passed visual inspection, but not redshift inspection. The middle candidate passed redshift inspection but not visual inspection. The right candidate, while tiny, passed visual inspection and redshift inspection.
+The left candidate passed visual inspection, but not redshift inspection. The middle candidate passed redshift inspection but not visual inspection. The right candidate, while tiny, passed visual inspection and redshift inspection.
 
 A comparison of a candidate's magnitudes and signal-to-noise ratios in different photometric filters (wavelengths) is shown in the below table:
 
