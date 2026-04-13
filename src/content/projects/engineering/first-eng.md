@@ -14,3 +14,9 @@ This course introduced me to the concept of CAD, the basic theory, and how to ma
 
 These are the skills that later got me into endeavour as a Structures Engineer. An example of an assignment I completed is below: designing earphones and a case. As shown, I made three parts of the earphone, and assembled and rendered the product. Next, I made technical drawings for the parts individually, and for the full assembly. Finally, I sketched the case.
 
+![Pod CAD](/projects/engineering/pod-cad.jpg)
+![Parts drawing](/projects/engineering/pod-part-dwg.jpg)
+![Pod drawing](/projects/engineering/full-pod-dwg.jpg)
+![Case sketch](/projects/engineering/case-sketch.jpg)
+
+There are certainly improvements to be made on this submission, but nevertheless it demonstrates that I had some useful skills prior to university!
