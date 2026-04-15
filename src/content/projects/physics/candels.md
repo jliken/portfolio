@@ -55,3 +55,6 @@ That latter point is important - the MSE loss function. This means that the CNN 
 
 The important thing to focus on here is the orange line - the "validation loss". The validation group is a fraction of the original dataset, that is not used to train the CNN, but rather to test it. The CNN evaluates its performance on this dataset, then determines which learned relationships were good or bad. We can see the validation loss (MSE) converge to a value of ~0.12 over time. The fact that this value is less than 10% of the maximum true redshift (z=1.5) means that the CNN is a pretty alright predictor of low galaxy redshifts!
 
+And so, this exploratory project could be considered a success. I developed a good image processing pipeline, and created a useful CNN that seemed to roughly model redshift correctly and automatically. My next step would be to find a survey with more galaxies that I could use - to improve the CNN's performance.
+
+_Image credit: <a href="https://hla.stsci.edu/cgi-bin/display?image=hlsp_candels_hst_wfc3_gs-tot_f160w_v1.0,hlsp_candels_hst_wfc3_gs-tot_f125w_v1.0,hlsp_candels_hst_wfc3_gs-tot_f105w_v1.0&autoscale=99.8&title=CANDELS+gs-tot+WFC3+f160w_f125w_f105w">MAST HST CANDELS</a>_
