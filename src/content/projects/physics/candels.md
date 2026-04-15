@@ -36,7 +36,7 @@ First I dealt with problems 1) and 2). I downloaded a catalogue of all galaxies 
 Despite the small dataset, I pushed on and developed my own complex image processing pipeline. For each galaxy, in each wavelength, I:
 
 <ul>
- <li>Extracted a small portion of the image containing the galaxy - a "postage stamp", using the *astropy.io.fits* Python package.</li>
+ <li>Extracted a small portion of the image containing the galaxy - a "postage stamp", using the <em>astropy.io.fits</em> Python package.</li>
  <li>Created a "mask" of all pixels in the image that were in the top 10% of brightness, and which were in groups of 20 or more. This used the _skimage.measure_ Python package.</li>
  <li>Identified the central galaxy in the image, and the pixels involved in background galaxies. Then I could re-centre the image on the central galaxy.</li>
  <li>Replaced the background galaxies with image noise sampled from the rest of the image.</li>
