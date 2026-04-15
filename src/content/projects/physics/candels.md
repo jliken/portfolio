@@ -25,11 +25,11 @@ Some key problems I encountered during this project were:
 4) Artificially removing secondary (background) galaxies from each galaxy image.
 5) Expanding the very small dataset to improve CNN performance.
 
-
+&nbsp;
 ### Finding "Good" Galaxies
 First I dealt with problems 1) and 2). I downloaded a catalogue of all galaxies imaged in the CANDELS survey, that had confirmed spectroscopic redshifts (very accurate measurements). Most of the patches of the survey were not imaged in all six wavelengths, aside from the "Goods-South 33" patch - so I removed all galaxies that weren't in this patch. Then I used Source Extractor to extract the positions of all galaxies in each image, so that I could extract my own images later. However, the catalogue and Source Extractor positions rarely matched - in the end I had a total of 77 galaxies with confirmed redshifts + imaging in all wavelengths.
 
-
+&nbsp;
 ### Image Processing
 Despite the small dataset, I pushed on and developed my own complex image processing pipeline. For each galaxy, in each wavelength, I:
 
@@ -43,7 +43,7 @@ This set of actions solved problems 3) and 4): you can see the difference in the
 
 !["Cleaned" image of a galaxy](/projects/physics/candels-cleaned-stamp.png) 
 
-
+&nbsp;
 ### CNN Pipeline
 The CNN would need a much larger dataset than 77 galaxies to meaningfully learn any relationships in the data - see problem 5). I chose to artificially expand the dataset by rotating each image three times, so that my resulting dataset was 4x larger! I could have tried other things, like adding fake noise to images, or creating my own fake galaxy images (which I ended up doing later in the year), but this was an exploratory project. I developed the CNN using the _tensorflow_ and _keras_ frameworks in Python, with the former being a pretty accessible way to make neural networks.
 
