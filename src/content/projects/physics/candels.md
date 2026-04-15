@@ -5,7 +5,7 @@ pubDate: "Apr 15 2026"
 category: "physics"
 heroImage: "/projects/physics/candels-image.png"
 ---
-<h3>Introduction</h3>
+### Introduction
 
 Having <a href="/projects/physics/borg">searched the BoRG catalogue</a> for high-redshift galaxies, but come across the issue of individual/scientific biases in galaxy redshift prediction, my research year with the University of Melbourne took an unexpected direction: using convolutional neural networks (CNNs) on HST/JWST (i.e., space telescope) imaging to automate galaxy redshift prediction, and reduce human interference. Why use space-based imaging instead of ground-based imaging? Well, ground-based telescopes cannot image in the infrared spectrum, due to atmospheric absorption, but the key features used to measure high redshifts are in the infrared spectrum. This is why space telescopes are commissioned to find high-redshift galaxies! 
 
@@ -19,36 +19,32 @@ Above we can see three galaxies imaged in the CANDELS survey, at a wavelength of
 
 Some key problems I encountered during this project were:
 
-<ol>
- <li>Matching the positions of galaxies with known redshifts, to the image data.</li>
- <li>Making sure that each galaxy was imaged in each of six wavelengths: 606nm, 814nm, 850nm, 1050nm, 1250nm, and 1600nm.</li>
- <li>Handling variable image resolutions across different images.</li>
- <li>Artificially removing secondary (background) galaxies from each galaxy image.</li>
- <li>Expanding the very small dataset to improve CNN performance.</li>
-</ol>
+1) Matching the positions of galaxies with known redshifts, to the image data.
+2) Making sure that each galaxy was imaged in each of six wavelengths: 606nm, 814nm, 850nm, 1050nm, 1250nm, and 1600nm.
+3) Handling variable image resolutions across different images.
+4) Artificially removing secondary (background) galaxies from each galaxy image.
+5) Expanding the very small dataset to improve CNN performance.
 
 
-<h3>Finding "Good" Galaxies</h3>
+### Finding "Good" Galaxies
 First I dealt with problems 1) and 2). I downloaded a catalogue of all galaxies imaged in the CANDELS survey, that had confirmed spectroscopic redshifts (very accurate measurements). Most of the patches of the survey were not imaged in all six wavelengths, aside from the "Goods-South 33" patch - so I removed all galaxies that weren't in this patch. Then I used Source Extractor to extract the positions of all galaxies in each image, so that I could extract my own images later. However, the catalogue and Source Extractor positions rarely matched - in the end I had a total of 77 galaxies with confirmed redshifts + imaging in all wavelengths.
 
 
-<h3>Image Processing</h3>
+### Image Processing
 Despite the small dataset, I pushed on and developed my own complex image processing pipeline. For each galaxy, in each wavelength, I:
 
-<ul>
- <li>Extracted a small portion of the image containing the galaxy - a "postage stamp", using the <em>astropy.io.fits</em> Python package.</li>
- <li>Created a "mask" of all pixels in the image that were in the top 10% of brightness, and which were in groups of 20 or more. This used the _skimage.measure_ Python package.</li>
- <li>Identified the central galaxy in the image, and the pixels involved in background galaxies. Then I could re-centre the image on the central galaxy.</li>
- <li>Replaced the background galaxies with image noise sampled from the rest of the image.</li>
- <li>Scaled the image to a standard resolution.</li>
-</ul>
+ - Extracted a small portion of the image containing the galaxy - a "postage stamp", using the _astropy.io.fits_ Python package.
+ - Created a "mask" of all pixels in the image that were in the top 10% of brightness, and which were in groups of 20 or more. This used the _skimage.measure_ Python package.
+ - Identified the central galaxy in the image, and the pixels involved in background galaxies. Then I could re-centre the image on the central galaxy.
+ - Replaced the background galaxies with image noise sampled from the rest of the image.
+ - Scaled the image to a standard resolution.
 
 This set of actions solved problems 3) and 4): you can see the difference in the image below!
 
 !["Cleaned" image of a galaxy](/projects/physics/candels-cleaned-stamp.png) 
 
 
-<h3>CNN Pipeline</h3>
+### CNN Pipeline
 The CNN would need a much larger dataset than 77 galaxies to meaningfully learn any relationships in the data - see problem 5). I chose to artificially expand the dataset by rotating each image three times, so that my resulting dataset was 4x larger! I could have tried other things, like adding fake noise to images, or creating my own fake galaxy images (which I ended up doing later in the year), but this was an exploratory project. I developed the CNN using the _tensorflow_ and _keras_ frameworks in Python, with the former being a pretty accessible way to make neural networks.
 
 I could list the full CNN architecture here, but I don't think that's a good use of anyone's time. The important technical details are that I had three convolutuional layers with ReLU activation function, two MaxPooling layers and a 25% dropout layer. I used the _adam_ optimiser, and a loss metric of mean squared error. 
