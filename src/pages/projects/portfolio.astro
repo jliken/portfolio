@@ -7,14 +7,13 @@ import { getCollection } from 'astro:content';
 import FormattedDate from '../../components/FormattedDate.astro';
 
 const posts = (await getCollection('projects'))
-  .filter((post) => post.data.category === "engineering")
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
-    <BaseHead title="Engineering" description="Engineering posts" />
+    <BaseHead title="Portfolio" description="Portfolio" />
     <style>
       main {width: 960px;}
       ul {
