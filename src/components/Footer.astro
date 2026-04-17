@@ -2,14 +2,26 @@
 const today = new Date();
 ---
 
-<footer>
-	&copy; Jack Liken {today.getFullYear()}
-	<div class="social-links">
-		<a href="https://www.linkedin.com/in/jack-liken" target="_blank">
-			<span class="sr-only">Follow me on LinkedIn</span>
-			<img src="/logos/linkedin.png" alt="LinkedIn" width="32" height="32">
-		</a>
-	</div>
+<footer class="footer">
+  <div class="footer-top">
+    <nav class="footer-nav">
+      <a href="/">Home</a>
+      <span>|</span>
+      <a href="/portfolio">Portfolio</a>
+      <span>|</span>
+      <a href="/resume">Resume</a>
+      <span>|</span>
+      <a href="/contact">Contact</a>
+    </nav>
+
+    <a href="https://www.linkedin.com/in/jack-liken" target="_blank">
+      <img src="/logos/linkedin.png" alt="LinkedIn" width="24" height="24">
+    </a>
+  </div>
+
+  <div class="footer-bottom">
+    &copy; Jack Liken {new Date().getFullYear()}
+  </div>
 </footer>
 <style>
 	footer {
