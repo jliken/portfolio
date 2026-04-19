@@ -91,7 +91,7 @@ const posts = (await getCollection('projects'))
                   <p class="date">
                     <FormattedDate date={post.data.pubDate} />
                   </p>
-                  <p class="blurb">{post.data.description}</p>
+                  <p class="blurb">{post.data.blurb}</p>
                 </a>
               </li>
             ))
