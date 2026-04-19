@@ -88,10 +88,9 @@ const posts = (await getCollection('projects'))
                 <a href={`/projects/${post.id}/`}>
                   <img width={720} height={360} src={post.data.heroImage} alt="" />
                   <h4 class="title">{post.data.title}</h4>
-                  <p class="date">
-                    <FormattedDate date={post.data.pubDate} />
+                  <p class="blurb">
+                    {post.data.blurb}
                   </p>
-                  <p class="blurb">{post.data.blurb}</p>
                 </a>
               </li>
             ))
