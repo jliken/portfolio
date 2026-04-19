@@ -7,16 +7,40 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header />
-		<main>
-			<p>
-				Welcome to my portfolio! My name is Jack Liken (or formally, John Liken), and with this website I hope to showcase my physics research and work in scientific programming and engineering. You can learn more about me on the <a href="/about">About Me</a> page, and I will post updates on my professional work on the <a href="/projects/physics">Physics</a>, <a href="/projects/engineering">Engineering</a>, and <a href="/projects/programmming">Programming</a> pages.
-			</p>
-		</main>
-		<Footer />
-	</body>
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <style>
+      .intro {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+      }
+
+      .intro img {
+        max-width: 250px;
+        height: auto;
+        border-radius: 8px;
+      }
+
+      .intro-text {
+        display: flex;
+        flex-direction: column;
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <main>
+      <div class="intro">
+        <img src="/logos/logo.svg" alt="Profile image" />
+
+        <div class="intro-text">
+          <p>
+            Hi, I'm Jack Liken &mdash; a soon-to-be Physics graduate at the University of Edinburgh, and prospective aerospace engineer.
+          </p>
+        </div>
+      </div>
+    </main>
+    <Footer />
+  </body>
 </html>

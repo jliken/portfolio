@@ -8,19 +8,14 @@ import { SITE_TITLE } from '../consts';
 		<h2><a href="/">{SITE_TITLE}</a></h2>
 		<div class="internal-links">
 			<HeaderLink href="/">Home</HeaderLink>
-			<HeaderLink href="/projects/physics">Physics</HeaderLink>
-			<HeaderLink href="/projects/engineering">Engineering</HeaderLink>
-			<HeaderLink href="/projects/programming">Programming</HeaderLink>
-			<HeaderLink href="/about">About Me</HeaderLink>
+			<HeaderLink href="/projects/portfolio">Portfolio</HeaderLink>
+			<HeaderLink href="/resume">Resume</HeaderLink>
+			<HeaderLink href="/contact">Contact</HeaderLink>
 		</div>
 		<div class="social-links">
 			<a href="https://www.linkedin.com/in/jack-liken" target="_blank">
 				<span class="sr-only">Follow me on LinkedIn</span>
 				<img src="/logos/linkedin.png" alt="LinkedIn" width="32" height="32">
-			</a>
-			<a href="https://www.instagram.com/jack_liken/" target="_blank">
-				<span class="sr-only">Follow me on Instagram</span>
-				<img src="/logos/instagram.png" alt="Instagram" width="32" height="32">
 			</a>
 		</div>
 	</nav>
@@ -49,12 +44,11 @@ import { SITE_TITLE } from '../consts';
 	nav a {
 		padding: 1em 0.5em;
 		color: var(--black);
-		border-bottom: 4px solid transparent;
+		border-bottom: none;
 		text-decoration: none;
 	}
 	nav a.active {
 		text-decoration: none;
-		border-bottom-color: var(--accent);
 	}
 	.social-links,
 	.social-links a {

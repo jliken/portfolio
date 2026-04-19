@@ -2,8 +2,8 @@
 title: "CANDELS: CNN Redshifts"
 description: "Searching the HST CANDELS survey"
 pubDate: "Apr 15 2026"
-category: "physics"
 heroImage: "/projects/physics/candels-image.png"
+blurb: "Blurb blurby blurb"
 ---
 ### Introduction
 

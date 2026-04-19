@@ -2,37 +2,68 @@
 const today = new Date();
 ---
 
-<footer>
-	&copy; {today.getFullYear()} Jack Liken. All rights reserved.
-	<div class="social-links">
-		<a href="https://www.linkedin.com/in/jack-liken" target="_blank">
-			<span class="sr-only">Follow me on LinkedIn</span>
-			<img src="/logos/linkedin.png" alt="LinkedIn" width="32" height="32">
-		</a>
-		<a href="https://www.instagram.com/jack_liken/" target="_blank">
-			<span class="sr-only">Follow me on Instagram</span>
-			<img src="/logos/instagram.png" alt="Instagram" width="32" height="32">
-		</a>
-	</div>
+<footer class="footer">
+  <div class="footer-top">
+    <nav class="footer-nav">
+      <a href="/">Home</a>
+      <span>|</span>
+      <a href="/projects/portfolio">Portfolio</a>
+      <span>|</span>
+      <a href="/resume">Resume</a>
+      <span>|</span>
+      <a href="/contact">Contact</a>
+    </nav>
+
+    <a href="https://www.linkedin.com/in/jack-liken" target="_blank">
+      <img src="/logos/linkedin.png" alt="LinkedIn" width="24" height="24">
+    </a>
+  </div>
+
+  <div class="footer-bottom">
+    &copy; Jack Liken {new Date().getFullYear()}
+  </div>
 </footer>
+
 <style>
-	footer {
-		padding: 2em 1em 6em 1em;
-		background: linear-gradient(var(--gray-gradient)) no-repeat;
-		color: rgb(var(--gray));
-		text-align: center;
-	}
-	.social-links {
-		display: flex;
-		justify-content: center;
-		gap: 1em;
-		margin-top: 1em;
-	}
-	.social-links a {
-		text-decoration: none;
-		color: rgb(var(--gray));
-	}
-	.social-links a:hover {
-		color: rgb(var(--gray-dark));
-	}
+  .footer {
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  /* remove default link styling */
+  .footer a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .footer a:visited {
+    color: inherit;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline; /* optional */
+  }
+  
+  .footer-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  /* ensure logo aligns with text */
+  .footer-top a {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-top img {
+    display: block;
+  }
+  
+  .footer-nav {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
 </style>
