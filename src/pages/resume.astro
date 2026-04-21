@@ -9,14 +9,51 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 <html lang="en">
 	<head>
 		<BaseHead title=Resume description=Resume />
+		<style>
+			section {max-width: 800px;
+	  				 margin: 0 auto;}
+	
+			.entry {display: flex;
+		  			justify-content: space-between;
+		  			align-items: flex-start;
+		  			margin-bottom: 1.5rem;}
+		
+			.left {display: flex;
+		  			flex-direction: column;}
+		
+			.title {font-weight: 600;}
+		
+			.subtitle {font-size: 0.95rem;
+		  				opacity: 0.8;}
+		
+			.right {white-space: nowrap;
+		  			text-align: right;
+		  			margin-left: 2rem;}
+		</style>
 	</head>
 	<body>
 		<Header />
 		<main>
 			<h1 style="text-align: center;"> Resume </h1>
-			<h3> Education </h1>
-			<p> Physics with Year Abroad, MPhys at University of Edinburgh.
-			(Predicted Grade: 1st Class Honours) </p>
+			<section>
+			  <h2>Education</h2>
+			
+			  <div class="entry">
+			    <div class="left">
+			      <div class="title">Physics with Year Abroad, MPhys</div>
+			      <div class="subtitle">(Predicted Grade: 1st Class Honours)</div>
+			    </div>
+			    <div class="right">2021–2026</div>
+			  </div>
+			
+			  <div class="entry">
+			    <div class="left">
+			      <div class="title">Year Abroad Bachelor's Research, University of Melbourne</div>
+			      <div class="subtitle">(Grade: 1st)</div>
+			    </div>
+			    <div class="right">2024–2025</div>
+			  </div>
+			</section>
 		</main>
 		<Footer />
 	</body>
