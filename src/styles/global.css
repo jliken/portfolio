@@ -83,9 +83,15 @@ hr {border: none; /* Horizontal rule styling */
 	border-top: 1px solid rgb(var(--gray-light));}
 
 @media (max-width: 720px) { /* For phones */
-	body {font-size: 18px;}
+	body {font-size: 12px;}
 	
 	main {padding: 1em;}
+
+	h1 {font-size: 1.831em;}
+	h2 {font-size: 1.465em;}
+	h3 {font-size: 1.172em;}
+	h4 {font-size: 0.938em;}
+	h5 {font-size: 0.75em;}
 }
 
 .sr-only {border: 0; /* Screen-reader only content - accessibiity*/
