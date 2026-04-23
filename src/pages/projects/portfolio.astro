@@ -15,7 +15,7 @@ const posts = (await getCollection('projects'))
   <head>
     <BaseHead title="Portfolio" description="Portfolio" />
     <style>
-      main {width: 1440px;} {/* Was 960px before */}
+      main {min(100%, 960px);} {/* Was 960px before */}
 
       ul {display: flex;
           flex-wrap: wrap;
