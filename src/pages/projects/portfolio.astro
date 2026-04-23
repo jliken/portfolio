@@ -15,55 +15,47 @@ const posts = (await getCollection('projects'))
   <head>
     <BaseHead title="Portfolio" description="Portfolio" />
     <style>
-      main {width: 960px;}
-      ul {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 2rem;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-      }
-      ul li {width: calc(25% - 1rem);}
-      ul li * {
-        text-decoration: none;
-        transition: 0.2s ease;
-      }
+      main {width: 960px;} {/* JS comment syntax is also valid */}
 
-      ul li img {
-        margin-bottom: 0.5rem;
-        border-radius: 2px;
-      }
+      ul {display: flex; <!-- HTML comment syntax is valid in .astro files -->
+          flex-wrap: wrap;
+          gap: 2rem;
+          list-style-type: none;
+          margin: 0;
+          padding: 0;}
+
+      ul li {width: calc(25% - 1rem);}
+
+      ul li * {text-decoration: none;
+               transition: 0.2s ease;}
+
+      ul li img {margin-bottom: 0.5rem;
+                 border-radius: 2px;}
+
       ul li a {display: block;}
 
-      .title {
-        margin: 0;
-        color: rgb(var(--black));
-        line-height: 1;
-      }
-      .date {
-        margin: 0;
-        color: rgb(var(--gray));
-      }
-      .blurb {
-        margin: 0.3rem 0 0;
-        color: rgb(var(--gray));
-        font-size: 0.9rem;
-        line-height: 1.4;
-      }
+      .title {margin: 0;
+              color: rgb(var(--black));
+              line-height: 1;}
+
+      .date {margin: 0;
+             color: rgb(var(--gray));}
+
+      .blurb {margin: 0.3rem 0 0;
+              color: rgb(var(--gray));
+              font-size: 0.9rem;
+              line-height: 1.4;}
 
       ul li a:hover h4,
       ul li a:hover .date {color: rgb(var(--accent));}
-
       ul a:hover img {box-shadow: var(--box-shadow);}
 
       @media (max-width: 720px) {
         ul {gap: 0.5em;}
-        ul li {
-          width: 100%;
-          text-align: center;
-        }
+        ul li {width: 100%;
+               text-align: center;}
       }
+
     </style>
   </head>
   <body>
