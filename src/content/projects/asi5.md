@@ -10,7 +10,7 @@ A main focus of my position as Lead Structures Engineer at endeavour was to trai
 
 Supervision of this project was split between myself and my Co-Lead, Dimitris Thodis: we taught them basic airframe design theory, I taught them how to use Openrocket to design their L1 rockets, and we then supervised construction and launch. The rockets were to be flown on Cesaroni H-class motors to a height of ~800m ASL, carrying payloads supplied by the Payload team to test critical systems for the competition payloads.
 
-[insert openrocket]
+![OpenRocket for ASI-Va.](/projects/engineering/asi5-openrocket.png)
 
 This project was especially important for Dimitris & I to get right, so we held weekly meetings, carefully planned and organised training and construction schedules, and critically made sure everyone was actually enjoying themselves! By splitting the 4 members of our team into pairs, we encouraged one-on-one team-building and equal contribution to each rocket. 
 
