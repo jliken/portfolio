@@ -23,7 +23,7 @@ We decided to construct a fully composite fibreglass-epoxy airframe in-house to 
 
 The body tubes are constructed by continuous layup on an aluminium mandrel prtected by Mylar, with a good surface finish from peel ply. The coupler tubes are constructed by individual ply internal layups, compressed by a balloon. Post-processing involves sanding and priming. 
 
-Extra tasks for this project have involved the production of technical documentation for UKRA team project support insurance, and community outreach, where I assisted a team of homeschooled children with their entry into the UKROC competition. 
+Extra tasks for this project have involved the production of technical documentation for UKRA team project support insurance, and community outreach, where I assisted a team of children with their entry into the UKROC competition. 
 
 Shredder is due to fly in August. Designing the airframe of a competition rocket and leading co-ordination between other sub-teams has significantly aided my professional development. Furthermore, in-house manufacture of fully composite airframes has never been done in endeavour before, so innovating on fabrication techniques has been a fantastic learning experience. 
 
