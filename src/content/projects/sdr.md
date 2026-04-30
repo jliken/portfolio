@@ -27,4 +27,4 @@ Extra tasks for this project have involved the production of technical documenta
 
 Shredder is due to fly in August. Designing the airframe of a competition rocket and leading co-ordination between other sub-teams has significantly aided my professional development. Furthermore, in-house manufacture of fully composite airframes has never been done in endeavour before, so innovating on fabrication techniques has been a fantastic learning experience. 
 
-_Credit to Dimitris Thodis for the CAD renders in this post._
+_Credit to [Dimitris Thodis](https://www.linkedin.com/in/dimitristhodis/) for the CAD renders in this post (and obviously his significant contribution to this project)._
