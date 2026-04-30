@@ -17,4 +17,4 @@ After some slight tweaking by team leads, these components were fully manufactur
 
 This project taught me a lot about collaborative engineering and iterative design, and was also a lot of fun to work on. I didn't get much exposure to manufacturing, but this was nonetheless very valuable experience.
 
-_Credit to Alex Kiayas for the updated technical drawing, iterating upon my own (which I can't find)._
+_Credit to [Alex Kiayas](https://www.linkedin.com/in/alex-kiayas/) for the updated technical drawing, iterating upon my own (which I can't find)._
