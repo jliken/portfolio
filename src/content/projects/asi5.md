@@ -8,7 +8,7 @@ blurb: "Supervised development & launch of two L1-H rockets."
 
 A main focus of my position as Lead Structures Engineer at endeavour was to train the new Structures team how rockets work, and therefore how to design and construct appropriate airframes. This was to allow them to contribute to the design/development of the more complex competition rockets, to get hands-on experience with a practical project immediately, and to give them the confidence to pursue their own L1 licenses if desired. Under our supervision, the team designed, constructed, and launched two L1 rockets - ASI-Va & ASI-Vb.
 
-Supervision of this project was split between myself and my Co-Lead, Dimitris Thodis: we taught them basic airframe design theory, I taught them how to use Openrocket to design their L1 rockets, and we then supervised construction and launch. The rockets were to be flown on Cesaroni H-class motors to a height of ~800m ASL, carrying payloads supplied by the Payload team to test critical systems for the competition payloads.
+Supervision of this project was split between myself and my Co-Lead, [Dimitris Thodis](https://www.linkedin.com/in/dimitristhodis/): we taught them basic airframe design theory, I taught them how to use Openrocket to design their L1 rockets, and we then supervised construction and launch. The rockets were to be flown on Cesaroni H-class motors to a height of ~800m ASL, carrying payloads supplied by the Payload team to test critical systems for the competition payloads.
 
 ![OpenRocket for ASI-Va.](/projects/engineering/asi5a-openrocket.png)
 
@@ -22,4 +22,4 @@ The payload on Galantis was integrated into the nosecone improperly, causing bot
 
 Looking back, this project was my favourite this year. I'm incredibly proud of my team for being so quick on the uptake, producing two beautiful rockets, and making the most of this valuable hands-on engineering experience. Working with the team so closely was a lot of fun, and of course the supervisory experience was very insightful.
 
-_Credit to Campbell Jones, Myra Zaheer, Keeley Campbell, and Naveen Nakkeeran for their hard work on this project._
+_Credit to [Campbell Jones](https://www.linkedin.com/in/campbell-jones-cj/), [Myra Zaheer](https://www.linkedin.com/in/myra-zaheer-2274b2267/), [Keeley Campbell](https://www.linkedin.com/in/keeley-francis-349731260/), and [Naveen Nakkeeran](https://www.linkedin.com/in/naveen-nakkeeran/) for their hard work on this project._
