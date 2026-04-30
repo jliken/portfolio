@@ -6,7 +6,7 @@ heroImage: "/projects/engineering/sdr-full-cad.png"
 blurb: "Co-lead airframe design & development for L4C 2026 competition rocket."
 ---
 
-I am co-leading the airframe design & development for one of our competition rockets this year - Shredder. This will fly at the Launch for Change (L4C) 2026 competition hosted by ARIA & Durham University, which has provided the team with £15,000 to create a rocket of our choosing and assist UKROC competitors. Shredder will aim for a 4.5km apogee with a total wet mass of 10.7kg (dry 6.3kg), carrying a deployable environmental payload that uses spectropolarimetry to sample aerosol concentrations in the low atmopshere. 
+I am co-leading the airframe design & development for one of our competition rockets this year - Shredder. This will fly at the Launch for Change (L4C) 2026 competition hosted by ARIA & Durham University, which has provided the team with funding to create a rocket of our choosing and assist UKROC competitors. Shredder will aim for a 4.5km apogee with a total wet mass of 10.7kg (dry 6.3kg), carrying a deployable environmental payload that uses spectropolarimetry to sample aerosol concentrations in the low atmopshere. 
 
 The structures team was tasked with the design and construction of a suitable airframe that can be lightweight, sustain supersonic velocity, and fulfil all requirements imposed by Payload, Recovery, and Avionics teams. An important factor was increased modularity to allow for easy replacement, upgrading, and maintenance of components. We were provided a mass budget of 2.5-4.5kg to complete our objectives, with minimal mass desirable to propel the payload higher. 
 
@@ -27,4 +27,4 @@ Extra tasks for this project have involved the production of technical documenta
 
 Shredder is due to fly in August. Designing the airframe of a competition rocket and leading co-ordination between other sub-teams has significantly aided my professional development. Furthermore, in-house manufacture of fully composite airframes has never been done in endeavour before, so innovating on fabrication techniques has been a fantastic learning experience. 
 
-_Credit to Dimitris Thodis for the CAD renders in this post._
+_Credit to [Dimitris Thodis](https://www.linkedin.com/in/dimitristhodis/) for the CAD renders in this post (and obviously his significant contribution to this project)._
