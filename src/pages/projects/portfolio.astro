@@ -8,6 +8,9 @@ import FormattedDate from '../../components/FormattedDate.astro';
 
 const posts = (await getCollection('projects'))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const engPosts = posts.filter(post => post.data.tag.includes('eng'));
+const physPosts = posts.filter(post => post.data.tag.includes('phys'));
 ---
 
 <!doctype html>
@@ -66,7 +69,7 @@ const posts = (await getCollection('projects'))
       <section>
         <ul>
           {
-            posts.map((post) => (
+            engPosts.map((post) => (
               <li>
                 <a href={`/projects/${post.id}/`}>
                   <img width={720} height={360} src={post.data.heroImage} alt="" />
@@ -80,6 +83,26 @@ const posts = (await getCollection('projects'))
           }
         </ul>
       </section>
+
+      <h2 style="margin-bottom: 2rem;">Physics Research</h2>
+      <section>
+        <ul>
+          {
+            physPosts.map((post) => (
+              <li>
+                <a href={`/projects/${post.id}/`}>
+                  <img width={720} height={360} src={post.data.heroImage} alt="" />
+                  <h4 class="title">{post.data.title}</h4>
+                  <p class="blurb">
+                    {post.data.blurb}
+                  </p>
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </section>
+
     </main>
     <Footer />
   </body>
