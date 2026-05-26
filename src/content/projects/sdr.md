@@ -4,6 +4,7 @@ description: "Competition rocket #2."
 pubDate: "Apr 25 2026"
 heroImage: "/projects/engineering/sdr-full-cad.png"
 blurb: "Co-lead airframe design & development for L4C 2026 competition rocket."
+tag: "eng"
 ---
 
 I am co-leading the airframe design & development for one of our competition rockets this year - Shredder. This will fly at the Launch for Change (L4C) 2026 competition hosted by ARIA & Durham University, which has provided the team with funding to create a rocket of our choosing and assist UKROC competitors. Shredder will aim for a 4.5km apogee with a total wet mass of 10.7kg (dry 6.3kg), carrying a deployable environmental payload that uses spectropolarimetry to sample aerosol concentrations in the low atmopshere. 

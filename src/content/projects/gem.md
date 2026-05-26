@@ -4,6 +4,7 @@ description: "Competition rocket #3."
 pubDate: "Apr 27 2026"
 heroImage: "/projects/engineering/gem-full-cad.png"
 blurb: "Co-lead airframe design & development for Mach-26 competition rocket."
+tag: "eng"
 ---
 
 I am responsible for the design & development of our other competition rocket this year - Gemini, endeavour's first two-stage rocket.  Gemini will fly at the Mach-26 competition hosted by Exotopic & UKSEDS, aiming for a 1.8km apogee with a total wet mass of 4.5kg (dry 2.4kg), carrying a deployable environmental payload, and performing stage separation by hot-staging. 

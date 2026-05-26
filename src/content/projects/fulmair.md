@@ -4,6 +4,7 @@ description: "Competition rocket #1."
 pubDate: "Apr 20 2026"
 heroImage: "/projects/engineering/fulmair-cad-assembly.png"
 blurb: "Upper airframe of SAC-24 competition rocket."
+tag: "eng"
 ---
 
 My first engineering project was my work on endeavour's rocket for the Spaceport America 2024 competition, Fulmair - specifically on the upper airframe. This rocket aimed to carry a 4 kilogram payload to 3 km, on an O-class motor. I was tasked with the design of the nose cone, payload & recovery bays, and payload & recovery bulkheads.

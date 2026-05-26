@@ -4,6 +4,7 @@ description: "Two high-powered L1 rockets."
 pubDate: "Apr 24 2026"
 heroImage: "/projects/engineering/asi5-pic.png"
 blurb: "Supervised development & launch of two L1-H rockets."
+tag: "eng"
 ---
 
 A main focus of my position as Lead Structures Engineer at endeavour was to train the new Structures team how rockets work, and therefore how to design and construct appropriate airframes. This was to allow them to contribute to the design/development of the more complex competition rockets, to get hands-on experience with a practical project immediately, and to give them the confidence to pursue their own L1 licenses if desired. Under our supervision, the team designed, constructed, and launched two L1 rockets - ASI-Va & ASI-Vb.

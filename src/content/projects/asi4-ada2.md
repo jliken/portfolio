@@ -4,6 +4,7 @@ description: "Competition rocket #3 and ASI rocket #1."
 pubDate: "Apr 22 2026"
 heroImage: "/projects/engineering/asi4-ada2.png"
 blurb: "Lower airframe of Mach-25 competition rocket, and test rocket."
+tag: "eng"
 ---
 
 Upon return from my year abroad, I was immediately tasked with the construction of the lower airframes for two of endeavour's rockets: test rocket ASI-IV (black and white), and the Mach-25 competition rocket ADA-II (black and yellow). The goal of the former was to perform a flight computer-actuated recovery test, and the latter was to compete at Mach-25. 
