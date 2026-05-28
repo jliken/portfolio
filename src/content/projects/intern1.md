@@ -2,7 +2,7 @@
 title: "2025 Internship"
 description: "2025 extragalactic physics internship."
 pubDate: "May 28 2026"
-heroImage: "/projects/engineering/asi5-pic.png"
+heroImage: "/projects/physics/int1-spectrum.jpg"
 blurb: "Spectroscopically measured physical properties of mid-redshift galaxies."
 tag: "phys"
 ---
@@ -15,14 +15,14 @@ Usage of the *PyNeb* package was crucial for this project. By calculating the ra
 
 Temperatures for 70 galaxies were measured, resulting in 49 successful metallicity measurements. Primary ionisation sources could be determined for 35 galaxies, shown below. Star-forming galaxies are below both curves, AGN are above both curves, and composite sources are between the curves.
 
-[INSERT FIG]
+!["BPT" plot showing primary ionisation sources.](/projects/physics/int1-ion-sources.png)
 
 The number of stellar mass measurements by BAGPIPES was limited, meaning only a small portion of (star-forming) galaxies could be used to analyse the MZR and FMR in this project. SHown below is the MZR. The low-redshift population of CLASSY galaxies is fitted with a different gradient to the higher-redshift EXCELS population. This implies some deviation from the expected low-redshift MZR of higher redshifts (but this conclusion is questionable given the five high-redshift datapoints). 
 
-[INSERT FIG]
+![MZR for CLASSY and EXCELS galaxies.](/projects/physics/int1-mzr.png)
 
 The plot of the FMR of available galaxies is shown below. A fully technical analysis of this plot is beyond the scope of this post, but the conclusion was that this data does not deviate significantly from the expected FMR for solely low-redshift galaxies.
 
-[INSERT FIG]
+![FMR for CLASSY and EXCELS galaxies.](/projects/physics/int1-fmr.png)
 
 While the final conclusions of this research internship weren't particularly ground-breaking, the updated catalogue of temperatures and metallicites from this project is valuable. Furthermore, the extra research experience (and exploration of spectroscopic analysis) allowed me to develop my professional skills and interests considerably. This internship went on to serve as the basis for a Master's project the following year.
