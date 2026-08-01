@@ -25,4 +25,4 @@ The plot of the FMR of available galaxies is shown below. A fully technical anal
 
 ![FMR for CLASSY and EXCELS galaxies.](/projects/physics/int1-fmr.png)
 
-While the final conclusions of this research internship weren't particularly ground-breaking, the updated catalogue of temperatures and metallicites from this project is valuable. Furthermore, the extra research experience (and exploration of spectroscopic analysis) allowed me to develop my professional skills and interests considerably. This internship went on to serve as the basis for a Master's project the following year.
+While the final conclusions of this research internship weren't particularly ground-breaking, the updated catalogue of temperatures and metallicites from this project is valuable. Furthermore, the extra research experience (and exploration of spectroscopic analysis) allowed me to develop my professional skills and interests considerably. This internship went on to serve as the basis for someone else's Master's project the following year.
