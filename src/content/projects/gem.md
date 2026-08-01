@@ -2,7 +2,7 @@
 title: "Mach-26: Gemini"
 description: "Competition rocket #3."
 pubDate: "Apr 27 2026"
-heroImage: "/projects/engineering/gem-full-cad.png"
+heroImage: "/projects/engineering/gem-ffinished.jpg"
 blurb: "Co-lead airframe design & development for Mach-26 competition rocket."
 tag: "eng"
 ---
@@ -11,7 +11,7 @@ I was responsible for the design & development of our other competition rocket t
 
 This entry into Mach-26 was for the sake of competition experience, invaluable to the attendees. The rocket performance was secondary to this objective (although two-stage rockets aren't exactly rudimentary), so design and construction plans were optimised to reduce working time. The airframe is composed of kraft phenolic tubing, birch ply and PLA - minimising cost, mass, and build time. Subsystem integration in Gemini is identical to that in [Shredder](/projects/sdr). 
 
-Construction of the airframe was primarily carried out by myself and my lead, [Luke Scott](https://www.linkedin.com/in/astroandadhd/), over the course of two weeks. With both of us having fairly extensive prior rocketry experience, this task was a breeze compared to more complex projects like [Shredder](/projects/sdr). Communication was an utmost priority with the other sub-teams (Payload, Recovery, Avionics), to ensure that the airframe would suit their requirements for the flight. Shown below are photos of the airframe components and finished sustainer, featuring Luke.
+Construction of the airframe was primarily carried out by myself and my lead, [Luke Scott](https://www.linkedin.com/in/astroandadhd/), over the course of two weeks. With both of us having fairly extensive prior rocketry experience, this task was a breeze compared to more complex projects like [Shredder](/projects/sdr). Communication was an utmost priority with the other sub-teams (Payload, Recovery, Avionics), to ensure that the airframe would suit their requirements for the flight. Shown below are photos of the airframe components and unpainted sustainer, featuring Luke.
 
 ![Gemini airframe components.](/projects/engineering/gem-parts.jpg)
 ![Gemini sustainer airframe.](/projects/engineering/gem-built.jpg)
@@ -20,6 +20,6 @@ I also created a full CAD assembly of all airframe components to aid with visual
 
 ![Labelled Gemini CAD section view.](/projects/engineering/gem-section-label.png)
 
+In the week prior to the competition, complications with the avionics stack meant that I had to redesign parts of the stack structure, as well as update the airframe. This was a rapid, iterative, and stressful process. However, I gained a much clearer understanding of the avionics stack and the elegance (and complexity!) of its design. As a result I feel more prepared to construct my own electronic systems for L2-level rockets in future. 
 
-
-Gemini is due to fly in June. Rapidly designing and constructing this airframe demonstrated the efficiency and quality of my work, thanks to my rocketry experience. I will be extremely interested to characterise the staging performance of this rocket, which is new ground for both myself and endeavour. 
+Gemini launched successfully, but the second stage motor unfortunately didn't ignite due to a software issue. We had planned for this event though, and the rocket followed one of our projected failure mode trajectories, ultimately recovering safely. The payload successfully recorded data (atmospheric variables, and CO2 & VOC concentrations) for over two hours, and the dual-bay recovery system successfully actuated (a competition first for endeavour!). The airframe suffered light damage during recovery and landing, which can easily be fixed for another flight - perhaps at IRW?
