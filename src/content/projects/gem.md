@@ -2,7 +2,7 @@
 title: "Mach-26: Gemini"
 description: "Competition rocket #3."
 pubDate: "Apr 27 2026"
-heroImage: "/projects/engineering/gem-finished.jpg"
+heroImage: "/projects/engineering/gem-full-cad.jpg"
 blurb: "Co-lead airframe design & development for Mach-26 competition rocket."
 tag: "eng"
 ---
@@ -21,5 +21,7 @@ I also created a full CAD assembly of all airframe components to aid with visual
 ![Labelled Gemini CAD section view.](/projects/engineering/gem-section-label.png)
 
 In the week prior to the competition, complications with the avionics stack meant that I had to redesign parts of the stack structure, as well as update the airframe. This was a rapid, iterative, and stressful process. However, I gained a much clearer understanding of the avionics stack and the elegance (and complexity!) of its design. As a result I feel more prepared to construct my own electronic systems for L2-level rockets in future. 
+
+![Me standing next to an assembled and finished Gemini at Mach!](/projects/engineering/gem-finished.png)
 
 Gemini launched successfully, but the second stage motor unfortunately didn't ignite due to a software issue. We had planned for this event though, and the rocket followed one of our projected failure mode trajectories, ultimately recovering safely. The payload successfully recorded data (atmospheric variables, and CO2 & VOC concentrations) for over two hours, and the dual-bay recovery system successfully actuated (a competition first for endeavour!). The airframe suffered light damage during recovery and landing, which can easily be fixed for another flight - perhaps at IRW?
