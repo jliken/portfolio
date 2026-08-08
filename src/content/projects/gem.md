@@ -2,7 +2,7 @@
 title: "Mach-26: Gemini"
 description: "Competition rocket #3."
 pubDate: "Jul 30 2026"
-heroImage: "/projects/engineering/gem-full-cad.png"
+heroImage: "/projects/engineering/gem-table.jpg"
 blurb: "Co-lead airframe design & development for Mach-26 competition rocket."
 tag: "eng"
 ---
