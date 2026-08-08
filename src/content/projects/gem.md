@@ -24,4 +24,6 @@ In the week prior to the competition, complications with the avionics stack mean
 
 ![Me standing next to an assembled and finished Gemini at Mach!](/projects/engineering/gem-finished.jpg)
 
+![Gemini's launch.](/projects/engineering/gem-launch.jpg)
+
 Gemini launched successfully, but the second stage motor unfortunately didn't ignite due to a software issue. We had planned for this event though, and the rocket followed one of our projected failure mode trajectories, ultimately recovering safely. The payload successfully recorded data (atmospheric variables, and CO2 & VOC concentrations) for over two hours, and the dual-bay recovery system successfully actuated (a competition first for endeavour!). The airframe suffered light damage during recovery and landing, which can easily be fixed for another flight - perhaps at IRW?
