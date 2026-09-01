@@ -26,10 +26,10 @@ In the week prior to the competition, complications with the avionics stack mean
 
 ![Gemini's launch.](/projects/engineering/gem-launch.jpg)
 
-Gemini launched successfully, but the second stage motor unfortunately didn't ignite due to a software issue. We had planned for this event though, and the rocket followed one of our projected failure mode trajectories, ultimately recovering safely. The payload successfully recorded data (atmospheric variables, and CO2 & VOC concentrations) for over two hours, and the dual-bay recovery system successfully actuated (a competition first for endeavour!). The airframe suffered light damage during recovery and landing, which was easily fixed for another flight at IRW.
+Gemini launched successfully, but the second stage motor unfortunately didn't ignite due to a software issue. We had planned for this event though, and the rocket followed one of our projected failure mode trajectories, ultimately recovering safely. The payload successfully recorded data (atmospheric variables, and CO2 & VOC concentrations) for over two hours, and the dual-bay recovery system successfully actuated (a competition first for endeavour!). The airframe suffered light damage during recovery and landing.
 
-[gem-blanket]
+![Gemini assembled for IRW.](/projects/engineering/gem-blanket.jpg)
 
 For IRW 26, I repaired and upgraded Gemini's airframe. This included a booster replacement, motor block fabrication and installation in the sustainer, and repairs to various cracks. Gemini was flown by myself, Luke, and [Keeley Francis](https://www.linkedin.com/in/keeley-francis-349731260/) on the 29th of August with successful sustainer ignition, resulting in a complete recovery of the full airframe in a re-flyable state. It is the first successful staged launch performed by a Scottish university team, and broke a UK altitude record (Staged: J-class) by over 200 metres.
 
-[gem-recovery]
+![Gemini recovered after completing its staged flight at IRW.](/projects/engineering/gem-recovered.jpg)
