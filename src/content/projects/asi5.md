@@ -3,7 +3,7 @@ title: "ASIMOV-V"
 description: "Two high-powered L1 rockets."
 pubDate: "Apr 24 2026"
 heroImage: "/projects/engineering/asi5-pic.png"
-blurb: "Supervised development & launch of two L1-H rockets."
+blurb: "Supervised development & launch of two L1 rockets."
 tag: "eng"
 ---
 
