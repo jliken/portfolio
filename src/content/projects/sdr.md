@@ -1,6 +1,6 @@
 ---
 title: "L4C 2026: Shredder"
-description: "Competition rocket #1."
+description: "Competition rocket #2."
 pubDate: "Aug 12 2026"
 heroImage: "/projects/engineering/sdr-ground.jpg"
 blurb: "Co-lead airframe design & development for L4C 2026 competition rocket, achieving 1st place."
