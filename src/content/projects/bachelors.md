@@ -1,5 +1,5 @@
 ---
-title: "Bachelors Project"
+title: "Bachelors Research"
 description: "Bachelor's project."
 pubDate: "May 15 2026"
 heroImage: "/projects/physics/bach-jag-colour.png"
