@@ -13,6 +13,6 @@ I helped construct the motor mounts, attach the fins and launch lugs, and paint 
 
 ![ASI-IV lower body manufactured](/projects/engineering/asi4-lb.jpg)
 
-ASI-IV flew to a height of 1km nominally, successfully recovering via flight computer actuation, and also broadcasting live telemetry for the first time in endeavour history. Unfortunately due to harsh weather conditions at Mach-25, ADA-II is yet to fly, but there is hope for a launch this summer.
+ASI-IV flew to a height of 1km nominally, successfully recovering via flight computer actuation, and also broadcasting live telemetry for the first time in endeavour history. Unfortunately due to harsh weather conditions at Mach-25, ADA-II was unable to fly.
 
 The manufacturing experience I gained from this task allowed me to proceed with confidence into my role as Lead Structures Engineer the following academic year.
