@@ -21,6 +21,8 @@ Pictured above are both rockets: ASI-Va (informally Galantis) post-launch on the
 
 The payload on Galantis was integrated into the nosecone improperly, causing both to detach during ascent. Despite this obvious set-back, the rocket remained stable with no nosecone and reached a predicted apogee of ~600m. The payload on Donatello was integrated into the nosecone correctly, and thus deployed at apogee (~800m) as required, recovering separately. Both rockets were also recovered successfully.
 
-Looking back, this project was my favourite this year. I'm incredibly proud of my team for being so quick on the uptake, producing two beautiful rockets, and making the most of this valuable hands-on engineering experience. Working with the team so closely was a lot of fun, and of course the supervisory experience was very insightful.
+Donatello later supported an additional payload test in May 2026, with the payload deploying under modified gridfins and measuring data with extra sensors.
+
+I'm incredibly proud of my team for being so quick on the uptake, producing two amazing rockets, and making the most of this valuable hands-on engineering experience. Working with the team so closely was a lot of fun, and of course the supervisory experience was very insightful.
 
 _Credit to [Campbell Jones](https://www.linkedin.com/in/campbell-jones-cj/), [Myra Zaheer](https://www.linkedin.com/in/myra-zaheer-2274b2267/), [Keeley Campbell](https://www.linkedin.com/in/keeley-francis-349731260/), and [Naveen Nakkeeran](https://www.linkedin.com/in/naveen-nakkeeran/) for their hard work on this project._
