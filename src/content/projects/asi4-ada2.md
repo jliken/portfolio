@@ -7,7 +7,7 @@ blurb: "Lower airframe of Mach-25 competition rocket, and test rocket."
 tag: "eng"
 ---
 
-Upon return from my year abroad, I was immediately tasked with the construction of the lower airframes for two of endeavour's rockets: test rocket ASI-IV (black and white), and the Mach-25 competition rocket ADA-II (black and yellow). The goal of the former was to perform a flight computer-actuated recovery test, and the latter was to compete at Mach-25. 
+Upon return from my year abroad, I was immediately tasked with the construction of the lower airframes for two of endeavour's rockets: test rocket ASI-IV (black and white), and competition rocket ADA-II (black and yellow). The goal of the former was to perform a flight computer-actuated recovery test, and the latter was to compete at Mach-25. 
 
 I helped construct the motor mounts, attach the fins and launch lugs, and paint the lower airframes of both rockets, providing me with my first hands-on manufacturing engineering experience. Attention to detail was critical for these tasks, to ensure both rockets abided by UKRA guidelines (e.g., for fin alignment), and were aerodynamically efficient (proper application of paint). 
 
