@@ -7,7 +7,7 @@ blurb: "Co-lead airframe design & development for L4C 2026 competition rocket, a
 tag: "eng"
 ---
 
-I co-lead the airframe design & development for endeavour's primary competition rocket this year, Shredder, which flew at the Launch for Change (L4C) 2026 competition hosted by ARIA & Durham University, ultimately winning the competition. Shredder flew to an apogee of 4.26km at a maximum speed of Mach 1.16 (398m/s, or 1,430 km/hr), with the airframe weighing 2.9kg. Our environmental payload was a spectropolarimeter, which analysed aerosol concentrations at different heights in an atmospheric column, as well as measuring standard atmospheric variables and VOC concentration.
+I co-lead the airframe design & development for endeavour's primary 2025/26 competition rocket, Shredder, which flew at the Launch for Change (L4C) 2026 competition hosted by ARIA & Durham University, ultimately winning the competition. Shredder flew to an apogee of 4.26km at a maximum speed of Mach 1.16 (398m/s, or 1,430 km/hr), with the airframe weighing 2.9kg. The (deployable) environmental payload was a spectropolarimeter, which analysed aerosol concentrations at different heights in an atmospheric column, as well as measuring standard atmospheric variables and VOC concentration.
 
 ![Shredder launching.](/projects/engineering/sdr-launch.png)
 ![Shredder's payload.](/projects/engineering/sdr-payload.jpg)
@@ -21,7 +21,7 @@ An important focus for this rocket was design for manufacture, since endeavour h
 ![Integrating Shredder's avionics stack into the airframe.](/projects/engineering/sdr-av-integration.jpg)
 ![Drilling holes in Shredder's airframe for payload integration.](/projects/engineering/sdr-drill.jpg)
 
-Extra tasks for this project involved the production of technical documentation for UKRA team project support insurance, and community outreach, where I assisted a team of children with their entry into the UKROC competition. Designing the airframe of a competition rocket and leading co-ordination between other sub-teams has significantly aided my professional development. Furthermore, in-house manufacture of a fully composite airframe has been a fantastic learning experience. 
+Extra tasks for this project involved the production of technical documentation for UKRA team project support insurance, and community outreach, where I assisted a team of children with their entry into the UKROC competition. Designing the airframe of a competition rocket and leading co-ordination between other sub-teams has significantly aided my professional development. Furthermore, in-house manufacture of a fully composite airframe was a fantastic learning experience. 
 
 ![Shredder laying vertically on a table, focus on the fins.](/projects/engineering/sdr-table.jpg)
 
