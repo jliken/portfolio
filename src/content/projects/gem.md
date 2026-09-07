@@ -7,7 +7,7 @@ blurb: "Co-lead airframe design & development for Mach-26 competition rocket."
 tag: "eng"
 ---
 
-I was responsible for the design & development of our secondary competition rocket this year - Gemini, endeavour's first two-stage rocket.  Gemini flew at Mach-26, a competition hosted by Exotopic & UKSEDS, aiming for a 1.8km apogee with a total wet mass of 4.5kg (dry 2.4kg). It carried a deployable environmental payload, and aimed to perform stage separation by hot-staging. 
+I was responsible for the design & development of endeavour's secondary 2025/26 competition rocket airframe - Gemini, their first two-stage rocket.  Gemini flew at Mach-26, a competition hosted by Exotopic & UKSEDS, aiming for a 1.8km apogee with a total wet mass of 4.5kg (dry 2.4kg). It carried a deployable environmental payload, and aimed to perform stage separation by hot-staging. 
 
 This entry into Mach-26 was for the sake of competition experience, invaluable to the attendees. The rocket performance was secondary to this objective (although two-stage rockets aren't exactly rudimentary), so design and construction plans were optimised to reduce working time. The airframe was composed of kraft phenolic tubing, birch ply and PLA - minimising cost, mass, and build time. Subsystem integration in Gemini was identical to that in [Shredder](/projects/sdr). 
 
